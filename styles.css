@@ -1,0 +1,155 @@
+
+html {
+    font-family: helvetica;
+    font-size: 22px; 
+    background-color: black; 
+    color: seashell;
+    opacity: 0.9;
+}
+
+#wrapper {
+    border-bottom: 1px solid seashell; 
+    display: inline-flex;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    max-height:  69px; 
+}
+
+.logo {
+    height: 50px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 9.5px;
+    padding-bottom: 9.5px; 
+}
+
+.navlink {
+    float: right; 
+    padding-right: 10px;
+    display: inline-flex; 
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+ .navlink-item {
+    text-decoration: underline; 
+    padding: 0px 10px; 
+ }
+
+ a {
+    color: seashell; 
+ }
+
+#container {
+    background-image: url('../images/img-mission-background.jpeg');
+    background-repeat: no-repeat;
+    max-width: 1200px; 
+    height: 700px;  
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    text-align: center; 
+    margin: 0 auto;
+    
+}
+
+#mission {
+    width: 1200px; 
+    min-height: 100px; 
+    background-color: #000000; 
+    display: flex;
+    flex-direction: column; 
+    margin: 0; 
+    padding: 0; 
+    line-height: 0px;
+}
+
+.tea-title {
+   max-width: 1200px;
+   min-height: 100px; 
+   padding-top: 75px;
+   text-align: center;
+   margin: 0 auto;
+}
+
+.blitztea {
+    max-width: 1000px;
+    min-height: 500px; 
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+    align-content: center; 
+    margin: 0 auto; 
+    padding-top: 25px; 
+    gap: 30px; 
+}
+
+.teatypes img {
+    height: 200px;
+    width: 300px; 
+}
+
+.teatypes {
+    display: flex;    
+    flex-flow: column; 
+    text-align: center;
+}
+
+figcaption {
+    font-size: 22px;
+    font-weight: bold; 
+    opacity: 0.9;
+    margin-top: 10px; 
+}
+
+#locations {
+    background-image: url('../Images/img-locations-background.jpeg');
+    background-repeat: no-repeat;
+    background-position: center; 
+    min-height: 500px;
+    max-width: 1200px; 
+    margin: 60px auto 10px; 
+    display: flex; 
+    justify-content: center;
+    align-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+}
+
+.location-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center; 
+}
+
+.location-child { 
+    width: 300px;
+    background-color: black;
+    border: 1px solid black; 
+    display: flex;
+    justify-content: center;
+    align-content: center; 
+    flex-direction: column; 
+    align-items: center; 
+    margin: 15px 20px; 
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-content: center; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+#footer {
+    text-align: left;
+    color: seashell;
+    font-weight: bold; 
+    font-size: 22px;
+    padding-left: 20px;   
+}
